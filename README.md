@@ -1,154 +1,84 @@
-# Unit 3 Challenge: Code Bootstrap Portfolio
+# Bootstrap Portfolio (Trilogy Skills Bootcamp: Week 3)
 
-## Overview
+> **NOTE:** I included my name in the Navbar instead of the Jumbotron as it appears cleaner, and they share the same area of the page.
 
-In this assignment, you'll be building your portfolio layout using the Bootstrap CSS Framework.
+> **NOTE:** I have no hyperlinks or buttons in the "Footer" section as there is no real content for me to link to, therefore I have included the `All hyperlinks should have a hover effect` and `All buttons should display a box shadow upon hover` features elsewhere on the page to meet the acceptance criteria.
 
-## Before You Begin
+## Table of Contents
+Design Prompt:
+* [Description](#Description)
+* [Acceptance Criteria](#Acceptance-Criteria)
+* [Mock-up](#Mock-up)
 
-* You've learned a ton of material: HTML, CSS, GitHub, GitHub Pages, and Bootstrap. If you feel like you're falling behind,      
+Deployment:
+* [URL](#URL)
+* [License](#license)
 
-## Commits
+</br>
 
-* Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code.
-
-* Committing often is a signal to employers that you are actively working on your code and learning.
-
-  * We use the mantra “commit early and often.”  This means that when you write code that works, add it and commit it!
-
-  * Numerous commits allow you to see how your app is progressing and give you a point to revert to if anything goes wrong.
-
-* Be clear and descriptive in your commit messaging.
-
-  * When writing a commit message, avoid vague messages like "fixed." Be descriptive so that you and anyone else looking at your repository knows what happened with each commit.
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
+___
+# Design Prompt
 ## Instructions
+Using Bootstrap, recreate your portfolio site with the following items:
 
-1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
+</br>
 
-2. Clone this repository to your computer.
+## Acceptance Criteria
+The website should include the following bootstrap components<a href="#references">*[1]*</a>:
+  * A Navigation bar
+  * A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
+    * Include links that are applicable to your portfolio.
+      * Links should navigate to the appropriate sections.
+  *  A hero section
+    * A jumbotron featuring your picture, your name, and any other information you'd like to include.
+  * A work section
+    * A section displaying your work in grid.
+    * Use bootstrap cards for each project.
+      * The description should give a brief overview of the work.
+  * A skills section
+    * List out the skills you expect to learn from the bootcamp.
+  * An about / contact section.
+    * An "About Me" section in the same row.
+  * A footer section.
+    * All hyperlinks should have a hover effect.
+    * All buttons should display a box shadow upon hover.
+  * Your Bootstrap solution should minimize use of media queries.
 
-3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
-   
-   - Create a folder structure.
+</br>
 
-     - Create a `index.html`.
+___
+# Deployment
+## URL
+* The URL of the deployed application: https://daveheseltine.github.io/Bootstrap-Portfolio/
+* The URL of the GitHub Repository: https://github.com/daveheseltine/Bootstrap-Portfolio
 
-     - Create a `css` folder.
+</br>
 
-       - Inside create a `style.css` file.
+## License
+MIT License
 
-   - Create an `images` folder.
+Copyright (c) 2023 daveheseltine
 
-       - Place all your images in this folder.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-4. Using Bootstrap, recreate your portfolio site with the following items:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-   The website should include the following bootstrap components:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-    - A Navigation bar
-    
-    - A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
+</br>
 
-      - Include links that are applicable to your portfolio.
-  
-        - Links should navigate to the appropriate sections 
-
-    - A hero section
-
-        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
-
-    - A work section
-
-      - A section displaying your work in grid. 
-
-        - If you need to use placeholder image use: https://placehold.co/ 
-
-      - Use bootstrap cards for each project.
-
-        - The description should give a brief overview of the work.
-
-      - Each project will eventually link to your class project work!
-
-    - A skills section
-
-      - List out the skills you expect to learn from the bootcamp.
-
-    - An about / contact section.
-
-      - An "About Me" section in the same row.
-    
-    - A footer section.
-
-      - All hyperlinks should have a hover effect.
-
-      - All buttons should display a box shadow upon hover.
-
-5. Your Bootstrap solution should minimize use of media queries.
-
-6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
-
-## Helpful Resources
-
-- [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-
-- [Responsive Web Design - How to Create Media Queries](https://www.youtube.com/watch?v=5xzaGSYd7jM)
-
-- [Media Queries 101 by CSS Tricks](https://css-tricks.com/css-media-queries/)
-
-- [Media Query Documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
-
-- [Github Pages Guide](https://pages.github.com/)
-
-  - Choose "Project Site" and "Start from Scratch" to get correct instructions.
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the functionality of their previous portfolio.
-
-### Repository Quality: 12%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-
-## Copyright
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+___
+# References
+1. Trilogy Skills Bootcamp (2023) *UK-VIRT-FE-PT-12-2022-U-LOLC/03-ux-bootstrap-module/04-bootstrap-portfolio-lesson/challenge/README.md*
